@@ -1,0 +1,9 @@
+@import "_mixins/font-face";
+
+@include font-face("robotoRegular", "../fonts/RobotoRegular/RobotoRegular");
+
+@include font-face("robotoMedium", "../fonts/RobotoMedium/RobotoMedium", 500);
+
+@include font-face("robotoBold", "../fonts/RobotoBold/RobotoBold", bold);
+
+@include font-face("gandhisansRegular", "../fonts/gandhisansRegular/GandhiSans-Regular-webfont");
